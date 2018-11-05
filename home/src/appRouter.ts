@@ -64,7 +64,7 @@ export default class AppRouter {
     private init() {
         this.addEvent()
         const res = this.parsePath()
-        if (res) {
+        if (res && res.app !== 'home') {
             this.$router(res.app, res.path)
         }
     }

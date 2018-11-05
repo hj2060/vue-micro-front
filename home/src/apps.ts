@@ -5,7 +5,7 @@ export default {
     app2:{
         lib: [
             'http://localhost:8811/app2/dist/css/app.10b9f97c.css',
-            'http://localhost:8811/app2/dist/js/app.bb408fd9.js '
+            'http://localhost:8811/app2/dist/js/app.fc2cf0d7.js '
         ]
     }
 }
