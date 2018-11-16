@@ -2,6 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Vuex from 'vuex'
 import * as decorator from 'vue-property-decorator'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+Vue.use(ElementUI)
 window.__modules__ = window.__modules__ || {};
 window.__modules__.Vue = Vue
 window.__modules__.Vuex = Vuex

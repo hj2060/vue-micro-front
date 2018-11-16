@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <h1>APP2的主页</h1>
+    <el-input placeholder="啦啦啦"></el-input>
   </div>
 </template>
 
@@ -13,7 +14,10 @@ const {Component} = VuePropertyDecorator
     HelloWorld
   }
 })
-export default class Home extends Vue {}
+export default class Home extends Vue {
+  created() {
+  }
+}
 </script>
 <style scoped>
   h1{

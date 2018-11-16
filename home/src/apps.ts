@@ -1,6 +1,6 @@
 export default {
     app1: {
-        lib: ['http://localhost:8811/app1/dist/css/app.3df802bf.css', 'http://localhost:8811/app1/dist/js/app.a29d2f60.js']
+        lib: ['http://localhost:8811/app1/dist/css/app.3df802bf.css', 'http://localhost:8811/app1/dist/js/app.8dc3bf45.js']
     },
     app2:{
         lib: [
